@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg px-5 border-bottom navbar_isamLab">
+<nav class="navbar navbar-expand-lg px-5 navbar_isamLab">
     <a class="navbar-brand" href="#">
         <img src="{{ asset('images/logo.png') }}">
     </a>
@@ -35,11 +35,11 @@
         </ul>
     </div>
 </nav>
-<section class="container py-5">
+<section class="container py-5 content-profesional">
     <div class="row">
         <div class="col-12 col-lg-7 row">
             <div class="col-12 col-lg-8">
-                <h1 class="border-bottom pb-4">Curso profesional de SEO</h1>
+                <h1 class="border-bottom pb-4">Curso Profesional de SEO</h1>
                 <h5 class="py-2">¡Posiciona sitios web en los <strong>buscadores más usados en el mundo!</strong></h5>
                 <div class="border-bottom pb-3 icons-seo">
                     <img src="{{ asset('images/icon-google.png') }}">

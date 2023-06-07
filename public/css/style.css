@@ -3,6 +3,10 @@
     --bg-gray: #e6e7e6;
 }
 
+body {
+    font-family: 'Vesper Libre', serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,8 +15,13 @@ html {
     color: #1c5dfd;
 }
 
+.navbar {
+    font-family: 'Merriweather', serif;
+}
+
 .navbar_isamLab {
     padding: 1.5rem 0;
+    border-bottom: 2px solid #000000;
 }
 
 .navbar_isamLab a img {
@@ -49,6 +58,15 @@ html {
 .navbar_isamLab .navbar-collapse .navbar-nav li:last-child a img {
     width: 50px;
     margin-right: 10px;
+}
+
+.content-profesional,
+.section_Seo {
+    font-family: 'Merriweather', serif;
+}
+
+.content-profesional h1 {
+    font-weight: bold;
 }
 
 .img-hero img {
@@ -166,6 +184,7 @@ html {
 .shape__container {
     position: relative;
     padding: 0;
+    font-family: 'Merriweather', serif;
 }
 
 .shape__container img {
@@ -200,7 +219,7 @@ html {
 }
 
 .shape-fuente {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--text-color);
 }
 
@@ -249,14 +268,17 @@ html {
 }
 
 .content_Seo-description h2 {
-    font-size: 2.5rem;
+    padding-top: 2rem;
+    width: 90%;
+    font-size: 2.25rem;
     color: var(--text-color);
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 .text_Seo {
-    font-size: 20px;
-    line-height: .8cm;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Beneficios */
@@ -595,6 +617,10 @@ html {
     line-height: 1.2;
 }
 
+.bg-footer .bgF-title p {
+    font-weight: 600;
+}
+
 .bg-footer .bgF-title .bgF-a a {
     color: #1c5dfd;
     font-weight: 500;
@@ -765,6 +791,12 @@ html {
 /* lg	1024px	 */
 @media (min-width: 992px) {
 
+    .content_Seo-description h2 {
+        padding-top: 0;
+        width: 100%;
+        line-height: 1.8;
+    }
+
     .navbar_isamLab .navbar-collapse .navbar-nav li:last-child a img {
         width: 125px;
     }
@@ -852,7 +884,7 @@ html {
     }
 
     .shape__container .shape .text {
-        font-size: 25px;
+        font-size: 22px;
         padding: 2rem 4rem 0 6.5rem;
     }
 
